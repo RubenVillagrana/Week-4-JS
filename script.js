@@ -1,9 +1,14 @@
 // 1. Write a function min that takes two numbers and returns the smallest one of the pair.
 // Examples:
-
-console.log(Math.min(4,2,));
-// expected output: 2
-
+function min(num1, num2) {
+  // check if num1 is less than num2
+  if(num1 < num2) {
+    return num1;
+  } else {
+    return num2;
+  }
+}
+console.log(min(20,10,));
 
 // console.log(min(0, 10)); // will output 0.
 // console.log(min(0, -10)); // will output -10
